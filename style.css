@@ -52,13 +52,20 @@
   }
   
   .github-btn {
-    background-color: #444;
-    color: #fff;
+    padding: 10px 20px;
+    background-color: #24292e;
+    color: white;
     border: none;
-    padding: 7px 15px;
-    margin-top: 10px;
-    cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .github-btn:hover {
+    transition: 200ms;
+    background-color: #444c56;
   }
   
   .about, .skills, .projects {
