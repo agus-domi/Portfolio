@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Agustin Dominguez - Portfolio</title>
   <link rel="icon" href="icon.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header>
     <nav>
@@ -29,75 +31,171 @@
 
     <section class="about" id="about">
       <h2>About Me 💻</h2>
-      <p>I'm from Río Cuarto, Córdoba, Argentina. <br>
-        I studied Computer Technology at ProA Desarrollo de Software, where I developed a strong interest in programming and electronics. <br><br>
+      <p>I'm from Río Cuarto, Córdoba, Argentina.
+        I studied Computer Technology at ProA Desarrollo de Software, where I developed a strong interest in programming
+        and electronics. <br><br>
         Currently, I’m expanding my technical skills through a professional course in mobile phone repair. <br>
         I’m a responsible, curious, and motivated person who enjoys learning every day. <br><br>
-        I have experience with Python, C++, and App Inventor, and I’ve participated in national programming competitions. <br><br>
+        I have experience with Python, C++, and App Inventor, and I’ve participated in national programming
+        competitions. <br><br>
         I also have several years of English training and a growing interest in tech entrepreneurship.
       </p>
+      <div class="about-actions">
+        <a class="download-cv-btn" href="cv/Curriculum.pdf" download>Download CV</a>
+      </div>
     </section>
 
     <section class="skills" id="skills">
       <h2>Skills 🛠️</h2>
-      <div class="icons">
-        <div class="tooltip">
-          <img src="skills/python.png" alt="Python">
-          <span class="tooltiptext"><strong>Python</strong><br> Lenguaje versátil usado en IA, automatización y desarrollo web</span>
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <div class="icons">
+          <div class="tooltip">
+            <img src="skills/python.png" alt="Python">
+            <span class="tooltiptext"><strong>Python</strong><br> Lenguaje versátil usado en IA, automatización y
+              desarrollo web</span>
+          </div>
+          <div class="tooltip">
+            <img src="skills/cpp.png" alt="C++">
+            <span class="tooltiptext"><strong>C++</strong><br> Lenguaje de alto rendimiento, ideal para sistemas, juegos
+              y hardware</span>
+          </div>
+          <div class="tooltip">
+            <img src="skills/html.png" alt="HTML">
+            <span class="tooltiptext"><strong>HTML</strong><br> Lenguaje de marcado utilizado para estructurar páginas
+              web</span>
+          </div>
+          <div class="tooltip">
+            <img src="skills/css.png" alt="CSS">
+            <span class="tooltiptext"><strong>CSS</strong><br> Lenguaje para diseñar y dar estilo a sitios web</span>
+          </div>
         </div>
-        
-        <div class="tooltip">
-          <img src="skills/cpp.png" alt="C++">
-          <span class="tooltiptext"><strong>C++</strong><br> Lenguaje de alto rendimiento, ideal para sistemas, juegos y hardware</span>
+      </div>
+      <div class="skill-category">
+        <h3>Databases</h3>
+        <div class="icons">
+          <div class="tooltip">
+            <img src="skills/mysql.png" alt="MySQL">
+            <span class="tooltiptext"><strong>MySQL</strong><br> Sistema de gestión de bases de datos relacional, muy
+              usado en web</span>
+          </div>
         </div>
-        
-        <div class="tooltip">
-          <img src="skills/html.png" alt="HTML">
-          <span class="tooltiptext"><strong>HTML</strong><br> Lenguaje de marcado utilizado para estructurar páginas web</span>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Platforms</h3>
+        <div class="icons">
+          <div class="tooltip">
+            <img src="skills/arduino.png" alt="Arduino">
+            <span class="tooltiptext"><strong>Arduino</strong><br> Plataforma de hardware y software usada para crear
+              proyectos electrónicos interactivos</span>
+          </div>
+          <div class="tooltip">
+            <img src="skills/appinventor.png" alt="App Inventor">
+            <span class="tooltiptext"><strong>App Inventor</strong><br> Herramienta visual para crear apps móviles sin
+              escribir código</span>
+          </div>
         </div>
-        
-        <div class="tooltip">
-          <img src="skills/css.png" alt="CSS">
-          <span class="tooltiptext"><strong>CSS</strong><br> Lenguaje para diseñar y dar estilo a sitios web</span>
-        </div>
-        
-        <div class="tooltip">
-          <img src="skills/arduino.png" alt="Arduino">
-          <span class="tooltiptext"><strong>Arduino</strong><br> Plataforma de hardware y software usada para crear proyectos electrónicos interactivos</span>
-        </div>
-        
-        <div class="tooltip">
-          <img src="skills/mysql.png" alt="MySQL">
-          <span class="tooltiptext"><strong>MySQL</strong><br> Sistema de gestión de bases de datos relacional, muy usado en web</span>
-        </div>
-        
-        <div class="tooltip">
-          <img src="skills/appinventor.png" alt="App Inventor">
-          <span class="tooltiptext"><strong>App Inventor</strong><br> Herramienta visual para crear apps móviles sin escribir código</span>
-        </div>        
       </div>
     </section>
 
     <section class="projects" id="projects">
       <h2>Projects 📂</h2>
-
-      <div class="project">
+      <div class="project" data-github-link="https://github.com/agus-domi/MundoBotin" data-demo-link="#">
         <h3>⚙️ Mundo Botín</h3>
-        <p>A basic inventory and order management system for a sportswear store. <br>
-        Features include search, registration, and user functionality. <br>
-        <strong>Tech:</strong> Python, MySQL</p>
+        <p>
+          <strong>Problem:</strong> A sportswear store needed a basic inventory system to manage products and orders.
+          <br>
+          <strong>My Role:</strong> I developed the full-stack system, including the user interface, backend logic, and database management.
+          <br>
+          <strong>Tech:</strong> Python (backend logic), HTML, CSS (frontend interface), MySQL (database management).
+        </p>
         <img src="projects/mundobotin.png" alt="Mundo Botín project">
-        <a href="https://github.com/agus-domi/MundoBotin" target="_blank">🔗 View on Github</a>
       </div>
 
-      <div class="project">
+      <div class="project" data-github-link="https://github.com/agus-domi/Zona-95-Car-Wash" data-demo-link="#">
         <h3>🧼 Car Wash Booking App</h3>
-        <p>Allows users to book and manage wash appointments based on car size and available time slots. <br>
-        <strong>Tech:</strong> App Inventor</p>
+        <p>
+          <strong>Problem:</strong> Create a mobile application to streamline car wash appointments for a local business.
+          <br>
+          <strong>My Role:</strong> I designed and developed the entire application, focusing on user-friendly booking and scheduling features.
+          <br>
+          <strong>Tech:</strong> App Inventor (visual block-based programming).
+        </p>
         <img src="projects/app.png" alt="Car Wash Booking App">
-        <a href="https://github.com/agus-domi/Zona-95-Car-Wash" target="_blank">🔗 View on Github</a>
       </div>
     </section>
   </main>
+  <div id="project-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-btn">&times;</span>
+    <img id="modal-image" src="" alt="Project image">
+    <div class="modal-text">
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <div class="modal-links">
+        <a id="modal-github" href="#" target="_blank">🔗 Ver en Github</a>
+        <a id="modal-demo" href="#" target="_blank">▶️ Live Demo</a>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+    // Variables de los elementos de la ventana flotante
+    const modal = document.getElementById("project-modal");
+    const modalImage = document.getElementById("modal-image");
+    const modalTitle = document.getElementById("modal-title");
+    const modalDescription = document.getElementById("modal-description");
+    const modalGithub = document.getElementById("modal-github");
+    const modalDemo = document.getElementById("modal-demo");
+    const closeBtn = document.querySelector(".close-btn");
+
+    // Función para abrir la ventana
+    function openModal(imageSrc, title, description, githubLink, demoLink) {
+        modalImage.src = imageSrc;
+        modalTitle.textContent = title;
+        modalDescription.innerHTML = description;
+        modalGithub.href = githubLink;
+        modalDemo.href = demoLink;
+        
+        // Mostrar u ocultar el enlace de Live Demo si no existe
+        if (demoLink === "#" || demoLink.trim() === "") {
+            modalDemo.style.display = "none";
+        } else {
+            modalDemo.style.display = "inline-block";
+        }
+        
+        modal.style.display = "block";
+    }
+
+    // Eventos para abrir la ventana al hacer clic en las imágenes
+    document.querySelectorAll(".project").forEach(projectDiv => {
+        const image = projectDiv.querySelector("img");
+        const title = projectDiv.querySelector("h3").textContent;
+        const description = projectDiv.querySelector("p").innerHTML;
+        
+        // ¡CAMBIO! Obtener los enlaces desde los atributos 'data-'
+        const githubLink = projectDiv.dataset.githubLink;
+        const demoLink = projectDiv.dataset.demoLink;
+
+        image.addEventListener("click", () => {
+            openModal(image.src, title, description, githubLink, demoLink);
+        });
+    });
+
+    // Eventos para cerrar la ventana
+    closeBtn.addEventListener("click", () => {
+        modal.style.display = "none";
+    });
+
+    // Cerrar si el usuario hace clic fuera de la ventana
+    window.addEventListener("click", (e) => {
+        if (e.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+</script>
 </body>
+<footer>
+    <p>© 2025 Agustin Dominguez. All rights reserved.</p>
+    <p>Made with ❤️ using HTML, CSS, and JavaScript</p>
 </html>
